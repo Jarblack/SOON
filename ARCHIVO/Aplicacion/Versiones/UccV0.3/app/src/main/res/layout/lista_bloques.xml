@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jarblack.uccv01.Lista"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:dividerPadding="@dimen/fab_margin"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                android:scrollbars="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque1"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 1"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque2">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 2"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque3"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 3"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque4">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 4"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque5"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 5"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque6">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 6"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque7"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 7"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque8">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 8"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque9"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 9"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque10">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 10"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque11"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 11"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque12">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 12"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque13"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 13"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque14">
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 14"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque15"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 15"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque16">
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 16"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque17"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 17"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque18">
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 18"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque19"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 19"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque20">
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 20"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque21"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 21"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque22">
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 22"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque23"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 23"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque24">
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 24"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque25"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 25"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque26">
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 26"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque27"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView27"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque27" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 27"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque28">
+
+                    <ImageView
+                        android:id="@+id/imageView28"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 28"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque29"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView29"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 29"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:onClick="ejecutar_bloque30">
+
+                    <ImageView
+                        android:id="@+id/imageView30"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque1_2" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 30"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:divider="@android:color/background_dark"
+                    android:onClick="ejecutar_bloque31"
+                    android:touchscreenBlocksFocus="false">
+
+                    <ImageView
+                        android:id="@+id/imageView31"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bloque31" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="Bloque 31"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="30dp" />
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:background="@android:color/background_light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emermedica" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Antes de oprimir el botón tenga en cuenta:"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Este servicio es solo para casos de emergencia ocurridos dentro de la Universidad."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. En el menú de opciones marque la opción 1."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Cuando este comunicado con el asesor tendrá que indicarle el Nit de la universidad:"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nit: 860029924-7"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/background_dark"
+                android:text="4. Al momento de la atención debe presentar el carné de la universidad.
+"/>
+
+            <Button
+                android:id="@+id/opc1"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@android:drawable/stat_sys_speakerphone"
+                android:text="Llamar"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+    </include>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/carrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Carrera"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/creditos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Creditos"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/vcreditos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Valor creditos"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/semestres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cantidad semestres"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ciudad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/snies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="SNIES"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/crear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear" />
+</LinearLayout>

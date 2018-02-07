@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jarblack.uccv01">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Lista">
+        </activity>
+
+       <!--Mapas-->
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque2Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque3Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque4Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque5Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+
+
+        <activity
+            android:name=".Bloque6Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque7Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque8Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque9Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque10Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque11Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque12Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque13Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque14Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque15Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque16Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque17Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque18Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque19Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque20Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque21Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque22Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque23Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque24Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque25Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque26Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque27Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque28Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque29Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque30Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque31Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque32Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque33Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque34Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".Bloque35Maps"
+            android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity android:name=".InfoClase"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog">
+        </activity>
+
+
+        <!--Vistas-->
+        <activity android:name=".Bloque1"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque2"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque3"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque4"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque5"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque6"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque7"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque8"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque9"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque10"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque11"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque12"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque13"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque14"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque15"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque16"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque17"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque18"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque19"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque20"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque21"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque22"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque23"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque24"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque25"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque26"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque27"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque28"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque29"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque30"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque31"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque32"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque33"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque34"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Bloque35"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>
